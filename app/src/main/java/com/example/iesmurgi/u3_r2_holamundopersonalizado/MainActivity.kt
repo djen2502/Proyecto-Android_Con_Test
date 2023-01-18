@@ -38,4 +38,15 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this,"El nombre del usuario no puede estar sin cumplimentar",Toast.LENGTH_SHORT).show()
     }
+
+
+    companion object{
+        fun multiplicacion(num1:Int, num2:Int):Int{
+
+            var Result=num1*num2
+
+            return Result
+        }
+    }
+
 }
